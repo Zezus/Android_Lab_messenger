@@ -29,13 +29,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editText"
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Telegram" />
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:text="Telegram"
+                android:textSize="23dp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,10 +46,12 @@
 
         <EditText
             android:id="@+id/time"
+            style="@android:style/Widget.AutoCompleteTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:enabled="false"
             android:inputType="time"
             android:selectAllOnFocus="true"
             android:singleLine="false"
