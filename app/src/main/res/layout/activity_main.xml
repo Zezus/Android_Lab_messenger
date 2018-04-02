@@ -20,13 +20,15 @@
 
         <ImageView
             android:id="@+id/imageLeft"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="0.2"
             app:srcCompat="@mipmap/telegram" />
 
         <LinearLayout
-            android:layout_width="220dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="0.65"
             android:orientation="vertical">
 
             <TextView
@@ -47,9 +49,9 @@
         <EditText
             android:id="@+id/time"
             style="@android:style/Widget.AutoCompleteTextView"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.15"
             android:ems="10"
             android:enabled="false"
             android:inputType="time"
@@ -72,13 +74,15 @@
 
         <ImageView
             android:id="@+id/imageLeft"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="0.2"
             app:srcCompat="@mipmap/telegram" />
 
         <LinearLayout
-            android:layout_width="220dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="0.65"
             android:orientation="vertical">
 
             <TextView
@@ -99,9 +103,9 @@
         <EditText
             android:id="@+id/time1"
             style="@android:style/Widget.AutoCompleteTextView"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.15"
             android:ems="10"
             android:enabled="false"
             android:inputType="time"
@@ -124,13 +128,15 @@
 
         <ImageView
             android:id="@+id/imageLeft"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="0.20"
             app:srcCompat="@mipmap/telegram" />
 
         <LinearLayout
-            android:layout_width="220dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="0.65"
             android:orientation="vertical">
 
             <TextView
@@ -151,9 +157,9 @@
         <EditText
             android:id="@+id/time2"
             style="@android:style/Widget.AutoCompleteTextView"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.15"
             android:ems="10"
             android:enabled="false"
             android:inputType="time"
